@@ -1,0 +1,106 @@
+.App {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4f46e5;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.App-link {
+  color: #4f46e5;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #4f46e5 !important;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-link.active {
+  color: #fbbf24 !important;
+}
+
+/* Table styling */
+.table-primary {
+  background-color: #a5b4fc !important;
+  color: #22223b;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+.table-bordered {
+  border: 2px solid #4f46e5;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+.btn-primary:hover {
+  background-color: #6366f1;
+  border-color: #6366f1;
+}
+
+/* Headings and cards */
+.card-title {
+  color: #4f46e5;
+}
+.card {
+  border: 2px solid #a5b4fc;
+  box-shadow: 0 2px 8px rgba(79,70,229,0.1);
+}
+
+/* Modal styling */
+.modal-content {
+  background-color: #f8fafc;
+  border: 2px solid #4f46e5;
+}
+.modal-header {
+  background-color: #a5b4fc;
+  color: #22223b;
+}
+.modal-footer {
+  background-color: #e0e7ff;
+}
+
+/* Form styling */
+.form-control {
+  border: 2px solid #a5b4fc;
+}
+.form-label {
+  color: #4f46e5;
+}
